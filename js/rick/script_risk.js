@@ -320,7 +320,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if(!userName){
                 alert("You must enter your username!");
             }else{
-                fetch('https://script.google.com/macros/s/AKfycbxbFtqpLMXb7GLSa7zarmeQT-Hn8Uc_STu3VE7fkX6YUjiNdkL-b-xx8YD6n_c1b9-S/exec', {
+                fetch('https://script.google.com/macros/s/AKfycbxc17rYnKKKPeyp66wwjPjRcW8qLOedyUpw8RDRff0aY1pXOL7hkcfakLI96-koAXuN/exec', {
                     method: "POST",
                     mode: "no-cors", 
                     headers: {
